@@ -3,22 +3,24 @@
     padding-left: 10px;
     padding-right: 10px;
     background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
 }
 
-h4{
-    font-size: x-large;
-    font-weight: lighter;
+h2{
+    font-size: xx-large;
+    font-weight: 400;
     color: hsl(229, 6%, 66%);
-    padding-left: 37%;
+    padding-left: 35%;
 }
 
 .subtitle {
     display: flex;
-    padding-left: 30%;
-    padding-right: 35%;
+    padding-left: 25%;
+    /* padding-right: 35%; */
     color: hsl(229, 6%, 66%);
     margin-bottom: 5%;
     text-align: center;
+    width: 75%;
 }
 
 p {
@@ -27,13 +29,14 @@ p {
 
 h1 {
     font-size: xx-large;
-    font-weight: 400;
+    font-weight: 600;
     padding-left: 35%;
 }
 
 .todo {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 
 .tbyk {
