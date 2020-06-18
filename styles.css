@@ -82,10 +82,11 @@ h1 {
 
 .titulo {
     font-size: xx-large;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     justify-content: start;
     align-items: baseline;
     margin-top: 10%;
+    font-weight: 400;
 }
 
 .icon {
@@ -96,7 +97,7 @@ h1 {
 
 @media (max-width: 400px) {
 
-h4{
+h2{
     width: 100%;
     padding-left: 0%;
     text-align: center;
@@ -120,9 +121,7 @@ h1{
 }
 
 .todo {
-    width: 90%;
-    display: block;
-    
+    display: block;   
 }
 
 .tbyk {
